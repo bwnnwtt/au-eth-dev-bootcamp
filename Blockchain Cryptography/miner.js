@@ -7,12 +7,12 @@ const mempool = [];
 const blocks = [];
 
 function addTransaction(transaction) {
-  // TODO: add transaction to mempool
+  // add transaction to mempool
   mempool.push(transaction);
 }
 
+// mine a block
 function mine() {
-  // TODO: mine a block
   const transactions = [];
 
   // from mempool, add up to MAX_TRANSACTIONS into the block
